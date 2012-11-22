@@ -1,4 +1,5 @@
 #import "GPUImagePicture.h"
+#import "GPUImageDispatchReleaseCompatibility.h"
 
 @implementation GPUImagePicture
 

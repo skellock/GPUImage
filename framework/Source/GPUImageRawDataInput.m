@@ -1,4 +1,5 @@
 #import "GPUImageRawDataInput.h"
+#import "GPUImageDispatchReleaseCompatibility.h"
 
 @interface GPUImageRawDataInput()
 - (void)uploadBytes:(GLubyte *)bytesToUpload;

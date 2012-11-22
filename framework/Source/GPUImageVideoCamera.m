@@ -1,5 +1,6 @@
 #import "GPUImageVideoCamera.h"
 #import "GPUImageMovieWriter.h"
+#import "GPUImageDispatchReleaseCompatibility.h"
 
 #pragma mark -
 #pragma mark Private methods and instance variables

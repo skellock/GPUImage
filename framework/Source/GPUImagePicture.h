@@ -1,6 +1,5 @@
 #import <UIKit/UIKit.h>
 #import "GPUImageOutput.h"
-#import "GPUImageDispatchReleaseCompatibility.h"
 
 @interface GPUImagePicture : GPUImageOutput
 {
