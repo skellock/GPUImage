@@ -42,7 +42,7 @@
 {
     if (dataUpdateSemaphore != NULL)
     {
-        dispatch_release(dataUpdateSemaphore);
+        GPUImageDispatchRelease(dataUpdateSemaphore);
     }
 }
 

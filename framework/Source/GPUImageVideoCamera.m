@@ -155,17 +155,17 @@
 
     if (cameraProcessingQueue != NULL)
     {
-        dispatch_release(cameraProcessingQueue);
+        GPUImageDispatchRelease(cameraProcessingQueue);
     }
 
     if (audioProcessingQueue != NULL)
     {
-        dispatch_release(audioProcessingQueue);
+        GPUImageDispatchRelease(audioProcessingQueue);
     }
     
     if (frameRenderingSemaphore != NULL)
     {
-        dispatch_release(frameRenderingSemaphore);
+        GPUImageDispatchRelease(frameRenderingSemaphore);
     }
 }
 
