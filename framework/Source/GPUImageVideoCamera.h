@@ -3,7 +3,7 @@
 #import <CoreMedia/CoreMedia.h>
 #import "GPUImageOpenGLESContext.h"
 #import "GPUImageOutput.h"
-#import "GPUDispatchReleaseCompatibility.h"
+#import "GPUImageDispatchReleaseCompatibility.h"
 
 //Delegate Protocal for Face Detection.
 @protocol GPUImageVideoCameraDelegate <NSObject>

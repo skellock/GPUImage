@@ -1,6 +1,7 @@
 #import "GLProgram.h"
 
 // Base classes
+#import "GPUImageDispatchReleaseCompatibility.h"
 #import "GPUImageOpenGLESContext.h"
 #import "GPUImageOutput.h"
 #import "GPUImageView.h"
